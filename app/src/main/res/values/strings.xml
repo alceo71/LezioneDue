@@ -18,4 +18,24 @@
 
     <string name="stringa_html">Esempio con <b>bold</b> e <u>sottolineato</u></string>
 
+    <string name="stringa_html_modificata">Altro html con &lt;b>bold&lt;/b> e &lt;u>sottolineato&lt;/u></string>
+
+    <string name="stringa_html_modificata2"><![CDATA[Html usando cdata <b>bold</b> e <u>sottolineato</u>]]></string>
+    <string name="spannable">spannable</string>
+
+    <string name="testo_con_annotazione">Esempio di testo <annotation stile="importante">con sezione importante</annotation></string>
+
+
+    <string-array name="pianeti_elenco">
+        <item>Mercurio</item>
+        <item>Venere</item>
+        <item>Terra</item>
+        <item>Marte</item>
+    </string-array>
+
+    <plurals name="risultato_ricerca">
+        <item quantity="one">Un risultato trovato.</item>
+        <item quantity="other">%d risultati trovati.</item>
+    </plurals>
+
 </resources>

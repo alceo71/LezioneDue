@@ -11,7 +11,9 @@ package com.example.lezionedue;
         import android.view.ViewGroup;
         import android.widget.Button;
 
-public class Misure extends AppCompatActivity implements View.OnClickListener{
+        import com.example.lezionedue.common.LogUtil;
+
+public class MisureActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button button;
 
@@ -23,10 +25,6 @@ public class Misure extends AppCompatActivity implements View.OnClickListener{
         // Cambiamo la grandezza del bottone
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(this);
-
-
-
-
     }
 
 
@@ -35,7 +33,7 @@ public class Misure extends AppCompatActivity implements View.OnClickListener{
 
         ViewGroup.LayoutParams params = button.getLayoutParams();
 
-        Log.d("Mio", "Misura larghezza " + params.width);
+        LogUtil.debug("Misura larghezza " + params.width);
 
         // params.width = 100;
         // params.width = convertiDpInPixel(100,this);
@@ -43,7 +41,7 @@ public class Misure extends AppCompatActivity implements View.OnClickListener{
 
         int larghezzaDim = (int) getResources().getDimension(R.dimen.larghezza_bottone);
 
-        Log.d("Mio", "larghezzaDim " + larghezzaDim);
+        LogUtil.debug("larghezzaDim " + larghezzaDim);
 
         params.width = larghezzaDim;
 
@@ -54,8 +52,8 @@ public class Misure extends AppCompatActivity implements View.OnClickListener{
         Resources resources = context.getResources();
         DisplayMetrics metrics = resources.getDisplayMetrics();
 
-        Log.d("Mio", "metrics.densityDpi " + metrics.densityDpi);
-        Log.d("Mio", "DisplayMetrics.DENSITY_DEFAULT " + DisplayMetrics.DENSITY_DEFAULT);
+        LogUtil.debug("metrics.densityDpi" + metrics.densityDpi);
+        LogUtil.debug("DisplayMetrics.DENSITY_DEFAULT " + DisplayMetrics.DENSITY_DEFAULT);
 
         int pixels = Math.round (dp * ((float) metrics.densityDpi / (float) DisplayMetrics.DENSITY_DEFAULT));
         return pixels;
