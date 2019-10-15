@@ -24,6 +24,8 @@
     <string name="spannable">spannable</string>
 
     <string name="testo_con_annotazione">Esempio di testo <annotation stile="importante">con sezione importante</annotation></string>
+    <string name="button">Button</string>
+    <string name="esempio_di_testo">Esempio di testo</string>
 
 
     <string-array name="pianeti_elenco">
