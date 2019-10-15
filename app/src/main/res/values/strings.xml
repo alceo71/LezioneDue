@@ -8,4 +8,14 @@
     <string name="sei">Sei</string>
     <string name="title_activity_misure">Misure</string>
     <string name="click">click</string>
+
+    <string name="esempio_testo">Esempio testo</string>
+    <string name="altro_testo">Altro testo</string>
+
+    <string name="nome_cognome">Nome: %s, Cognome: %s</string>
+    <string name="cognome_nome">Cognome: %2$s, Nome: %1$s</string>
+    <string name="numero">Numero: %f</string>
+
+    <string name="stringa_html">Esempio con <b>bold</b> e <u>sottolineato</u></string>
+
 </resources>

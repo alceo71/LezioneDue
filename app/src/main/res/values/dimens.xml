@@ -3,4 +3,5 @@
     <dimen name="larghezza_bottone">200dp</dimen>
     <dimen name="altezza_bottone">90dp</dimen>
     <dimen name="size_font_bottone">20sp</dimen>
+    <dimen name="size_font_stringhe">30sp</dimen>
 </resources>
