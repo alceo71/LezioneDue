@@ -54,6 +54,22 @@
         android:textAppearance="@style/mio_titolo"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="30sp"
+        app:autoSizeStepGranularity="4sp"
+        android:text="@string/esempio_di_testo"
+        app:autoSizeTextType="uniform"
+        />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/esempio_di_testo"
+        app:autoSizeTextType="uniform"
+        app:autoSizePresetSizes="@array/dimensioni_font_autosize"
+        />
 
 </LinearLayout>

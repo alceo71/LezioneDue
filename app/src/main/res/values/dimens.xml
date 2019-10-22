@@ -4,4 +4,12 @@
     <dimen name="altezza_bottone">90dp</dimen>
     <dimen name="size_font_bottone">20sp</dimen>
     <dimen name="size_font_stringhe">22sp</dimen>
+
+    <array name="dimensioni_font_autosize">
+        <item>10sp</item>
+        <item>12sp</item>
+        <item>20sp</item>
+        <item>40sp</item>
+    </array>
+
 </resources>
