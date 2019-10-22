@@ -15,7 +15,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <!-- item name="buttonStyle">@style/mio_bottone</item -->
-        <item name="android:textViewStyle">@style/stile_text_view</item>
+        <!-- item name="android:textViewStyle">@style/stile_text_view</item -->
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -33,6 +33,18 @@
         <item name="android:textSize">20sp</item>
         <item name="android:padding">10dp</item>
     </style>
+
+
+    <style name="mio_bottone.piccolo">
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="bottone_grande" parent="mio_bottone">
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">24dp</item>
+    </style>
+
 
     <style name="mio_titolo" parent="TextAppearance.AppCompat.Title">
         <item name="android:textAllCaps">true</item>
@@ -68,4 +80,7 @@
         <item name="colorButtonNormal">#F8A055</item>
         <item name="colorControlHighlight">@color/colorAccent</item>
     </style>
+
+
+
 </resources>

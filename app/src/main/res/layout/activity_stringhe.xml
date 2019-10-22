@@ -52,6 +52,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/size_font_stringhe"
-
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_font_stringhe"
+        android:text="@string/testo_da_tradurre" />
+
+
+
 </LinearLayout>
